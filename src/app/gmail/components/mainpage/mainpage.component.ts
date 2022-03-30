@@ -11,5 +11,9 @@ export class MainpageComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  isSidebar:boolean=false
+  showSidebar(){
+    this.isSidebar=!this.isSidebar
+  }
 
 }

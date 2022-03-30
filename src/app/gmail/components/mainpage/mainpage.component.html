@@ -1,8 +1,14 @@
 <div class="row">
     <app-navbar></app-navbar>
 </div>
-<div class="row">
-    <div class="col-lg-4">
+<div class="row" id="btn">
+    <div class="col-lg-2">
+        <button  class="btn btn-primary" (click)="showSidebar()"><div class="header_toggle"><i id="header-toggle" class="fas fa-bars text-white"></i> </div></button>
+    </div>
+</div>
+<div class="row" *ngIf="isSidebar">
+   
+    <div class="col-lg-4" >
         <app-sidebar></app-sidebar>
     </div>
     <div class="col-lg-8">

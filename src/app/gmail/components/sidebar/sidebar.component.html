@@ -1,7 +1,9 @@
 <div class="alert alert-primary full-height">
     <h4>Menu</h4>
-    <button class="btn btn-secondary btn-block" [routerLink]="['inbox']" >Inbox</button><br>
-    <button class="btn btn-secondary btn-block" [routerLink]="['draft']" >Draft</button><br>
-    <button class="btn btn-secondary btn-block" [routerLink]="['sent']" >Sent</button><br>
-    <button class="btn btn-secondary btn-block" [routerLink]="['trash']" >Trash</button><br>
+    <div id="btn"><button class="btn btn-secondary btn-block" [routerLink]="['inbox']" > <i class="fa fa-inbox" aria-hidden="true"></i>
+        | Inbox</button><br></div>
+    <div id="btn"><button class="btn btn-secondary btn-block" [routerLink]="['draft']" > <i class="fa fa-envelope" aria-hidden="true"></i> | Draft</button><br></div>
+    <div id="btn"><button class="btn btn-secondary btn-block" [routerLink]="['sent']" > <i class="fa fa-paper-plane" aria-hidden="true"></i>
+        | Sent</button><br></div>
+    <div id="btn"><button class="btn btn-secondary btn-block" [routerLink]="['trash']" > <i class="fa fa-trash" aria-hidden="true"></i> | Trash</button><br></div>  
 </div>

@@ -1,0 +1,9 @@
+.header_toggle {
+    color: blue;
+    font-size: 1.5rem;
+    cursor: pointer
+}
+
+#btn{
+    margin-right: 650px;
+}
