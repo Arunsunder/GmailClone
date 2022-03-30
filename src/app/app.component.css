@@ -1,0 +1,13 @@
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+#image{
+    width: 100%;
+    height: 100vh;
+    background-image:url("../assets/images/pic2.png");
+    background-size: cover;
+    text-align: center;
+    
+}
